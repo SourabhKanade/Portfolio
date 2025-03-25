@@ -121,7 +121,7 @@ const projects: Projects = {
   //     "The frontend is built using **React** and styled using **material-ui** and backend built using **node.js**.",
   //     "**socket.io** library is used for live transfer of data from client to server using websockets.",
   //     "The app supports multiple games running parallel, means multiple pair of people can play on the same website at the same time without any interference.",
-  //     "If you wish to test this project, you must run the url on different browsers, or better check my **[video explaining how it works](https://www.linkedin.com/posts/bhavya-tomar_careerhack-github-hackathon-activity-6760854974944694272-aEDM)** that I posted on LinkedIn.",
+  //     "If you wish to test this project, you must run the url on different browsers, or better check my **[video explaining how it works]** that I posted on LinkedIn.",
   //   ],
   //   stack: [logos.nodejs, logos.react, logos.socketio, logos.materialui],
   //   links: {
@@ -204,7 +204,7 @@ const projects: Projects = {
   //     "This description is typed as **markdown** in source code, the Project component takes in props for links, icons, title, images, etc; nothing is hard coded.",
   //   ],
   //   links: {
-  //     live: "https://bhavya.dev",
+  //     live: "",
   //     github: "https://github.com/SourabhKanade/portfolio",
   //   },
   //   stack: [

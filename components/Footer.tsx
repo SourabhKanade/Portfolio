@@ -200,13 +200,13 @@ function Footer() {
 
                   {/* <Link
                     className={classes.socialItem}
-                    href="mailto:xbhavyatomar@gmail.com"
+                    href="mailto:lorem@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
                   >
                     <MailIcon fontSize="large" className={classes.icon} />
-                    <Typography>xbhavatomar@gmail.com</Typography>
+                    <Typography>lorem@gmail.com</Typography>
                   </Link> */}
                 </Grid>
 

@@ -163,7 +163,7 @@ function Project({
                     <Button
                       className={classes.btnSpecial}
                       startIcon={<StarsIcon />}
-                      href={special.link}
+                      href={special?.link ?? "#"}
                       target="_blank"
                       rel="noopener noreferrer"
                       size={
@@ -221,7 +221,8 @@ function Project({
                   <Box component="figure" className={classes.figure}>
                     <Image
                       itemProp="image"
-                      src={images.main.link}
+                      // src={images?.main.link}
+                      src={images.main.link ?? "/assets/programmer.svg"}
                       width={images.main.width}
                       height={images.main.height}
                       quality={75}

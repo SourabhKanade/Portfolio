@@ -111,7 +111,7 @@ function Footer() {
     formData.append("name", nameRef.current.value);
     formData.append("email", emailRef.current.value);
     formData.append("message", messageRef.current.value);
-    const url: RequestInfo = process.env.NEXT_PUBLIC_FORMSPREE_URL!;
+    const url: RequestInfo | any = process.env.NEXT_PUBLIC_FORMSPREE_URL;
     fetch(url, {
       method: "POST",
       body: formData,
@@ -164,7 +164,7 @@ function Footer() {
                 <Grid item md={6} sm={6} className={classes.iconsGrid}>
                   <Link
                     className={classes.socialItem}
-                    href="https://github.com/BhavyaCodes"
+                    href="https://github.com/SourabhKanade"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
@@ -176,7 +176,7 @@ function Footer() {
 
                   <Link
                     className={classes.socialItem}
-                    href="https://www.linkedin.com/in/bhavya-tomar/"
+                    href="https://www.linkedin.com/in/sourabhkanade/"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
@@ -188,7 +188,7 @@ function Footer() {
 
                   <Link
                     className={classes.socialItem}
-                    href="https://twitter.com/bhavyacodes"
+                    href="https://x.com/KSourabh_21"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
@@ -198,7 +198,7 @@ function Footer() {
                     <Typography>Twitter</Typography>
                   </Link>
 
-                  <Link
+                  {/* <Link
                     className={classes.socialItem}
                     href="mailto:xbhavyatomar@gmail.com"
                     target="_blank"
@@ -207,7 +207,7 @@ function Footer() {
                   >
                     <MailIcon fontSize="large" className={classes.icon} />
                     <Typography>xbhavatomar@gmail.com</Typography>
-                  </Link>
+                  </Link> */}
                 </Grid>
 
                 <Grid

@@ -96,8 +96,9 @@ function MyAppWithTheme(props: AppProps) {
       // },
       type: paletteType,
       background: {
-        default: paletteType === "dark" ? "#161625" : "#fafafa",
-        paper: paletteType === "dark" ? "#161625" : "#fff",
+        // 090e21
+        default: paletteType === "dark" ? "#090e21" : "#fafafa",
+        paper: paletteType === "dark" ? "#090e21" : "#fff",
       },
     },
     overrides: {
@@ -283,32 +284,30 @@ export function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <meta charSet="utf-8" />
+        {/* <meta charSet="utf-8" />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
-        {/* <title>Bhavya Tomar</title> */}
-        {/* PWA primary color */}
+        {/* <title>Sourabh Kanade</title> 
         <meta name="theme-color" content="#161625" />
-        {/* <!-- Primary Meta Tags --> */}
-        <meta name="title" content="Bhavya Tomar" />
+        {/* <!-- Primary Meta Tags -->
+        <meta name="title" content="Sourabh Kanade" />
         <meta
           name="description"
-          content="Hi, I am Bhavya Tomar, an adventurer in web development."
+          content="Hi, I am Sourabh Kanade, an adventurer in web development."
           key="description"
         />
 
-        {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
           content={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}`}
         />
-        <meta property="og:title" content="Bhavya Tomar" />
+        <meta property="og:title" content="Sourabh Kanade" />
         <meta
           property="og:description"
-          content="Hi, I am Bhavya Tomar, an adventurer in web development."
+          content="Hi, I am Sourabh Kanade, an adventurer in web development."
           key="og-description"
         />
         <meta
@@ -316,7 +315,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
           content={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}/assets/programmer-meta.png`}
         />
 
-        {/* <!-- Twitter --> */}
+        // Twitter
         <meta
           property="twitter:card"
           content={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}/assets/programmer-meta.png`}
@@ -325,32 +324,32 @@ export function MyApp({ Component, pageProps }: AppProps) {
           property="twitter:url"
           content={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}`}
         />
-        <meta property="twitter:title" content="Bhavya Tomar" />
+        <meta property="twitter:title" content="Sourabh Kanade" />
         <meta
           property="twitter:description"
-          content="Hi, I am Bhavya Tomar, an adventurer in web development."
+          content="Hi, I am Sourabh Kanade, an adventurer in web development."
           key="twitter-description"
         />
         <meta
           property="twitter:image"
           content={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}/assets/programmer-meta.png`}
-        />
+        /> */}
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/apple-touch-icon.png"
+          href="/code.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/favicon-32x32.png"
+          href="/code.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/favicon-16x16.png"
+          href="/code.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
@@ -380,7 +379,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
             // component="a"
             // href="/#"
             variant="h6"
-          >{`< Bhavya />`}</Typography>
+          >{`< Sourabh />`}</Typography>
           {/* </Link> */}
           <div className={classes.navbarRight}>
             <Hidden mdDown>

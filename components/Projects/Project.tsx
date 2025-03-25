@@ -124,7 +124,7 @@ function Project({
 
     return (
       <div itemProp="abstract">
-        {description.map((para, index) => (
+        {description?.map((para: any, index: any) => (
           <Typography key={index} className={classes.text} gutterBottom>
             <ReactMarkdown
               renderers={{
@@ -178,7 +178,7 @@ function Project({
                   {renderDescription()}
                 </Box>
                 <Box className={classes.chipContainer}>
-                  {links.github && (
+                  {links?.github && (
                     <Button
                       itemScope
                       itemProp="codeRepository"
@@ -194,12 +194,12 @@ function Project({
                       Source code
                     </Button>
                   )}
-                  {links.live && (
+                  {links?.live && (
                     <Button
                       className={classes.chip}
                       variant="contained"
                       color="secondary"
-                      href={links.live}
+                      href={links?.live}
                       target="_blank"
                       rel="noopener noreferrer"
                       endIcon={<OpenInNewIcon />}
@@ -217,7 +217,7 @@ function Project({
           <Box clone order={{ xs: 1, md: index % 2 === 0 ? 1 : 2 }}>
             <Grid item md={6} xs={12}>
               <Box className={classes.imageContainer}>
-                {images.main && (
+                {images?.main && (
                   <Box component="figure" className={classes.figure}>
                     <Image
                       itemProp="image"
@@ -234,7 +234,7 @@ function Project({
                   </Box>
                 )}
                 <Box style={{ textAlign: "center" }}>
-                  {images.webm && (
+                  {images?.webm && (
                     <video
                       autoPlay
                       loop

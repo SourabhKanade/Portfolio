@@ -32,7 +32,7 @@ function Buttons() {
     <>
       <Box mx={-1}>
         <Link
-          href="https://github.com/BhavyaCodes"
+          href="https://github.com/SourabhKanade"
           target="_blank"
           rel="noopener noreferrer"
           color="inherit"
@@ -47,7 +47,7 @@ function Buttons() {
           </IconButton>
         </Link>
         <Link
-          href="https://www.linkedin.com/in/bhavya-tomar/"
+          href="https://www.linkedin.com/in/sourabhkanade/"
           target="_blank"
           rel="noopener noreferrer"
           color="inherit"
@@ -62,7 +62,7 @@ function Buttons() {
           </IconButton>
         </Link>
         <Link
-          href="https://twitter.com/bhavyacodes"
+          href="https://x.com/KSourabh_21"
           target="_blank"
           rel="noopener noreferrer"
           color="inherit"

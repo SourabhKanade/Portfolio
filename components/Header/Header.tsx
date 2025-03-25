@@ -10,8 +10,10 @@ import {
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 import { useDarkMode } from "context/themeContext";
-import lightHeader from "public/assets/backgrounds/blob-scene-light.svg";
-import darkHeader from "public/assets/backgrounds/blob-scene-dark.svg";
+import lightHeader from "public/assets/backgrounds/light-blob-scene-haikei.svg";
+// import darkHeader from "public/assets/backgrounds/blob-scene-dark.svg";
+import darkHeader from "public/assets/backgrounds/dark-blob-scene-haikei.svg";
+
 import HeaderText from "./HeaderText";
 
 function Header() {
@@ -64,7 +66,8 @@ function Header() {
             <Grid item md={6} xs={12} className={classes.gridItem}>
               <img
                 className={classes.headerImg}
-                src="/assets/programmer2.svg"
+                src="/assets/Coding-rafiki.svg"
+                // src="/assets/programmer_v_02.svg"
                 alt="programmer illustration"
               />
             </Grid>

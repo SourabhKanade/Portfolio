@@ -13,17 +13,17 @@ import allProjects, { ProjectType } from "lib/projects";
 
 const projects: ProjectType[] = [
   allProjects.devGram,
-  allProjects.dogmash,
-  allProjects.covid19,
-  allProjects.connect4,
-  allProjects.getItDone,
+  // allProjects.dogmash,
+  // allProjects.covid19,
+  // allProjects.connect4,
+  // allProjects.getItDone,
 ];
 
 const IndexPage = () => {
   return (
     <>
       <Head>
-        <title>Bhavya Tomar</title>
+        <title>Sourabh Kanade</title>
       </Head>
       <motion.div
         key="index"

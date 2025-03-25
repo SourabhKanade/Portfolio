@@ -5,7 +5,8 @@ import { ProjectType } from "lib/projects";
 
 function Projects({ projects }: { projects: ProjectType[] }) {
   const renderProjects = () => {
-    return projects.map(
+    console.log(projects, "projects");
+    return projects?.map(
       ({ title, description, images, stack, links, special }, index) => {
         return (
           <Project

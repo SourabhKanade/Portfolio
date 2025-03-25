@@ -25,7 +25,7 @@ function TechChips({ stack }: appProps) {
       style={{ maxWidth: "100%" }}
       className={classes.root}
     >
-      {stack.map((obj) => (
+      {stack?.map((obj) => (
         <Grid key={obj.label} item xs={2} md={2}>
           <Chip label={obj.label} logo={obj.logo} invert={obj.invert} />
         </Grid>
